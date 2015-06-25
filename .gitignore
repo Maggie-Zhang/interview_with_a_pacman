@@ -40,8 +40,6 @@ ipch/
 *.suo
 *.tss
 *.user
-*.vcproj
-*.vcxproj
 *.vcxproj.filters
 *.xcodeproj
 *.xcworkspace
