@@ -35,8 +35,6 @@ ipch/
 *.sln.cache
 *.slo
 *.so
-*.sublime-project
-*.sublime-workspace
 *.suo
 *.tss
 *.user

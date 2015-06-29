@@ -1,0 +1,966 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ma",
+				"material_overrides"
+			],
+			[
+				"touch",
+				"touched_character"
+			],
+			[
+				"build_",
+				"build_init_bar"
+			],
+			[
+				"remove",
+				"remove_character_in_list"
+			],
+			[
+				"touching",
+				"touching_character"
+			],
+			[
+				"cam",
+				"cam_screen_pos"
+			],
+			[
+				"get_",
+				"get_init_sequence"
+			],
+			[
+				"is",
+				"is_current"
+			],
+			[
+				"current",
+				"current_character"
+			],
+			[
+				"re",
+				"register_action"
+			],
+			[
+				"_eff",
+				"_effect_id"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "Package Control Messages\n========================\n\nPackage Control:\n---------------\n\n  Version 3.0 Release Notes\n  \n  \n  **** Windows Sublime Text 3 Users ****\n  \n  Due to a bug in Package Control 2.0, Windows ST3 users will need to open the\n  Sublime Text console (ctrl+`) and execute the following Python to properly\n  upgrade. All other users may ignore this part of the message.\n  \n  Make sure NOT to copy the leading two spaces, or an \"unexpected indent\" error\n  will occur.\n  \n  import urllib.request,os,sys; exec(\"if sys.version_info < (3,) or os.name != 'nt': raise OSError('This code is for Windows ST3 only!')\"); pr='Preferences.sublime-settings'; ip='ignored_packages'; n='Package Control'; s=sublime.load_settings(pr); ig=s.get(ip); ig.append(n); s.set(ip,ig); sublime.save_settings('Preferences.sublime-settings'); pf=n+'.sublime-package'; urllib.request.install_opener(urllib.request.build_opener(urllib.request.ProxyHandler())); by=urllib.request.urlopen('https://packagecontrol.io/'+pf.replace(' ','%20')).read(); open(os.path.join(sublime.installed_packages_path(),pf),'wb').write(by); ig.remove(n); s.set(ip,ig); sublime.save_settings(pr); print('Package Control: 3.0.0 upgrade successful!')\n  \n  ********\n  \n  \n  Package Control 3.0 adds a bunch of polish, improving the Sublime Text\n  experience for users and package developers:\n  \n   - improved upgrades of themes, color schemes and syntaxes\n   - dependency support\n   - SSL for Linux\n   - new secondary Windows HTTP backend\n   - patches for Python in Sublime Text 2 on Windows\n   - commands to easily remove channels and repositories\n   - an events API for packages\n   - improved documentation\n  \n  \n  As of July 2014, I now work for myself. This has allowed me to spend more time\n  working on open source software, including Package Control. If you appreciate\n  the work I've done, please consider a small donation. If even 5% of regular\n  users donated the price of a coffee or beer, that would cover quite a bit of\n  my development time! See https://packagecontrol.io/about for options.\n  \n  \n  Some recent Package Control stats:\n  \n   - every weekday over 1M JSON requests hit the channel server\n   - in December, the channel server will transmit 4TB+ of compressed JSON\n   - users have installed, upgraded or removed 85M+ packages since late 2011\n  \n  \n  Read more about the release at:\n  \n  https://packagecontrol.io/news#2014-12-23-Package_Control_30_Released\n  \n",
+			"settings":
+			{
+				"buffer_size": 2443,
+				"line_ending": "Windows",
+				"name": "Package Control Messages",
+				"scratch": true
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 375.0,
+		"last_filter": "clo",
+		"selected_items":
+		[
+			[
+				"clo",
+				"File: Close All"
+			],
+			[
+				"syn",
+				"Set Syntax: SJSON"
+			],
+			[
+				"sy",
+				"Set Syntax: SJSON"
+			],
+			[
+				"synlu",
+				"Set Syntax: Lua"
+			],
+			[
+				"markdown",
+				"Set Syntax: MultiMarkdown"
+			],
+			[
+				"markdow",
+				"Set Syntax: Markdown GFM"
+			],
+			[
+				"markdo",
+				"Set Syntax: Markdown"
+			],
+			[
+				"close",
+				"File: Close All"
+			],
+			[
+				"lua",
+				"Set Syntax: Lua"
+			],
+			[
+				"cloe",
+				"File: Close All"
+			],
+			[
+				"set syntax: lu",
+				"Set Syntax: Lua"
+			],
+			[
+				"clos",
+				"File: Close All"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"packa",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"inde",
+				"Indentation: Reindent Lines"
+			],
+			[
+				"upper",
+				"Convert Case: Upper Case"
+			]
+		],
+		"width": 410.0
+	},
+	"console":
+	{
+		"height": 239.0,
+		"history":
+		[
+			"?",
+			"t",
+			"t = \"pow\"",
+			"t = \"\"pow\"",
+			"t",
+			"t = pow",
+			"2+2",
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/interview_with_a_pacman/PacWeb"
+	],
+	"file_history":
+	[
+		"/D/Projects/RenameProject/RenameAssets/DropDst/Ping/GremlinLevel.level",
+		"/D/Projects/RenameProject/RenameAssets/Ping/gremlin_anim_controller.anim_controller",
+		"/D/Projects/RenameProject/RenameAssets/Assets/GremlinLevel.level",
+		"/D/Projects/RenameProject/gremlin_anim_controller.anim_controller",
+		"/D/Projects/PitchCrawlTheGame/micro_zombie_idle_to_die.anim_controller",
+		"/D/stingray/binaries/settings/ToolChainConfiguration.config",
+		"/D/Projects/RenameProject/RenameAssets/Assets/gremlin_animated.anim_skeleton",
+		"/D/Projects/RenameProject/RenameAssets/Assets/gremlin_anim_controller.anim_controller",
+		"/D/Projects/PitchCrawlTheGame/script/flow/do_enemy_turn.flow_editor",
+		"/D/Projects/PitchCrawlTheGame/script/flow/do_enemy_turn.flow",
+		"/D/Projects/PitchCrawlTheGame/script/global.script_flow_nodes",
+		"/D/Projects/RenameProject/RenameAssets/OtherAssets/gremlin_animated_lambert_Skin.material",
+		"/D/Projects/RenameProject/RenameAssets/Lambert_Eye.material",
+		"/D/Projects/warhammer/warhammer/scripts/ui/ui_element.lua",
+		"/D/Projects/warhammer/warhammer/scripts/ui/ui_layer.lua",
+		"/D/Projects/warhammer/warhammer/scripts/ui/ui_elements.lua",
+		"/D/Projects/warhammer/warhammer/scripts/ui/views/credits_view.lua",
+		"/D/Projects/warhammer/warhammer/scripts/ui/ui_renderer.lua",
+		"/D/Projects/warhammer/warhammer/scripts/unit_extensions/weapons/weapon_unit_extension.lua",
+		"/D/Projects/warhammer/warhammer/scripts/unit_extensions/generic/generic_health_extension.lua",
+		"/D/Projects/warhammer/warhammer/scripts/game_state/state_ingame.lua",
+		"/D/Projects/RenameProject/RenameAssets/DropDst/Assets_renamed/gremlin_anim_controller.anim_controller",
+		"/D/phaneus_MTL272SV12_Stingray/sample_assets/RenameAssets/Assets/gremlin_animated.unit_anim",
+		"/D/Projects/PitchCrawlTheGame/demon_fatty/demon_fatty.anim_controller",
+		"/D/Projects/RenameProjectPristine/RenameAssets/Assets/gremlin_anim_controller.anim_controller",
+		"/D/stingray/editor/StingrayEditorBackend/Core/js/angular/directives/controls/time-line/time-line.html",
+		"/D/stingray/editor/StingrayEditorBackend/Core/js/angular/directives/controls/time-line/time-line-controller.js",
+		"/D/stingray/core/editor_slave/editor/unit.lua",
+		"/D/Projects/RenameProject/RenameAssets/Assets/gremlin_animated.unit",
+		"/D/Projects/RenameProject/gremin.level",
+		"/D/Projects/RenameProject/gremin - Copy.level",
+		"/D/stingray/core/appkit/lua/debug_scrollbox.lua",
+		"/D/stingray/core/editor_slave/level_editor/level_editor.lua",
+		"/D/stingray/core/editor_slave/editor/level_editing.lua",
+		"/D/stingray/docs/readme.md",
+		"/D/stingray/core/editor_slave/level_editor/unit.lua",
+		"/D/stingray/core/editor_slave/unit_editor/unit_object.lua",
+		"/D/Projects/RenameProject/settings.ini",
+		"/D/Projects/RenameProject/boot.package",
+		"/D/Projects/PropertyEditorPerf/content/models/character.unit",
+		"/D/Projects/RenameProject/RenameAssets/ParticleOnlyLevel.level",
+		"/D/Projects/RenameProject/script/lua/project.lua",
+		"/D/Projects/RenameProject/test2.level",
+		"/D/stingray/CMakeLists.txt",
+		"/C/Program Files (x86)/JetBrains/WebStorm 10.0.2/bin/WebStorm64.exe.vmoptions",
+		"/C/Users/phaneus/AppData/Local/Temp/Att39D7.tmp.lua",
+		"/D/stingray/binaries/core/appkit/lua/util.lua",
+		"/D/stingray/binaries/core/appkit/lua/player_util.lua",
+		"/D/stingray/binaries/core/appkit/lua/unit_controller.lua",
+		"/D/stingray/editor/StingrayEditor/StingrayEditor/CMakeLists.txt",
+		"/D/Projects/RenameProjectPristine/settings.ini",
+		"/D/stingray/editor/StingrayEditor/CMakeLists.txt",
+		"/D/Projects/PropertyEditorPerf/perf.level",
+		"/D/phaneus_MTL272SV12_Stingray/sample_assets/RenameAssets/Assets/GremlinLevel.level",
+		"/C/Users/phaneus/.gitconfig",
+		"/D/Data/new_resource_data_from_file.sjon",
+		"/D/Data/new_resource_data.sjon",
+		"/D/Projects/RenameProject/RenameAssets/Terrain/terrain.material",
+		"/D/Data/old_aggregate_data.sjon",
+		"/D/Data/old_resource_data.sjon",
+		"/D/Data/new_aggregate_data.sjon",
+		"/D/Projects/RenameProject/RenameAssets/Terrain/terrain.unit",
+		"/D/Projects/RenameProject/RenameAssets/Terrain/terrain.physics",
+		"/D/Projects/pitchcrawl/script/flow/enemy_select_target.flow_editor",
+		"/D/Projects/pitchcrawl/script/flow/enemy_select_target.flow",
+		"/D/Projects/RenameProject/RenameAssets/gremlin_animated.unit",
+		"/D/Projects/RenameProject/RenameAssets/DropDst/Assets_renamed/GremlinLevel.level",
+		"/D/stingray/update_libraries.rb",
+		"/D/Projects/RenameProject/RenameAssets/Assets/gremlin_animated.unit_anim",
+		"/D/Projects/RenameProject/RenameAssets/Assets/animations/gremlin_animated.anim_clip",
+		"/D/Projects/RenameProject/icon.texture",
+		"/D/Projects/RenameProject/RenameAssets/Assets/gremlin_animated_pow.dcc_asset",
+		"/D/Projects/RenameProject/RenameAssets/Assets/animations/gremlin_animated_ping.anim_clip",
+		"/D/Projects/pitchcrawl/script/lua/components/character.lua",
+		"/D/Projects/pitchcrawl/script/lua/components/hero.lua",
+		"/D/Projects/pitchcrawl/script/global.script_flow_nodes",
+		"/D/Projects/pitchcrawl/script/lua/flow_callbacks.lua",
+		"/D/Projects/pitchcrawl/script/lua/gameplay/game_manager.lua",
+		"/C/Users/phaneus/Documents/UnityProjects/Mecanim/Assets/Daikon Forge/Examples/Skins/Fantasy/Fantasy Skin Atlas.mat",
+		"/D/Projects/pitchcrawl/script/lua/player.lua",
+		"/D/Projects/pitchcrawl/units/demon_fatty/demon_fatty1.material",
+		"/D/stingray_wiki/Tools-Foundation.md",
+		"/D/phaneus_MTL272SV12_Stingray/sample_assets/RenameAssets/Lambert_Eye.material",
+		"/D/Projects/RenameProject/content/models/character.material",
+		"/D/Projects/pitchcrawl/script/pitch_db.lua",
+		"/D/Projects/pitchcrawl/images/demon.texture",
+		"/D/Projects/pitchcrawl/images/zombie.texture",
+		"/D/Projects/pitchcrawl/images/zombie.material",
+		"/D/Projects/pitchcrawl/images/priest.texture",
+		"/D/Projects/pitchcrawl/images/old_knight.texture",
+		"/D/Projects/pitchcrawl/images/move.texture",
+		"/D/Projects/pitchcrawl/images/mage.texture",
+		"/D/Projects/pitchcrawl/images/bat.texture",
+		"/D/Projects/pitchcrawl/script/lua/project.lua",
+		"/D/Projects/RenameProject/test.level",
+		"/D/Projects/RenameProject/RenameAssets/Assets/gremlin_animated_renamed.unit_anim",
+		"/D/Projects/RenameProject/RenameAssets/OtherAssets/gremlin_animated_renamed.dcc_asset",
+		"/D/Projects/RenameProject/RenameAssets/OtherAssets/gremlin_animated_renamed.unit_anim",
+		"/D/Projects/RenameProject/RenameAssets/DropDst/Assets_renamed/textures/eyecolor.texture",
+		"/D/Projects/pitchcrawl/images/fatty.texture",
+		"/D/stingray/core/editor_slave/unit_editor/physics_actor_element.lua",
+		"/D/stingray/core/editor_slave/units/animation_preview_tile/anim_preview_grid.texture",
+		"/D/Projects/pitchcrawl/script/lua/player_hud.lua",
+		"/D/Projects/pitchcrawl/script/lua/navigation/navigation_manager.lua",
+		"/D/Projects/pitchcrawl/script/lua/s2d_ui.lua",
+		"/D/Assets/lua workshop/TestProject/lua/ui/s3d_ui.lua",
+		"/D/Projects/pitchcrawl/script/lua/utility/picking.lua",
+		"/D/Projects/pitchcrawl/script/lua/gameplay/attack.lua",
+		"/C/Users/phaneus/Documents/CopChase2000/Project/script/lua/player.lua",
+		"/C/Users/phaneus/Documents/CopChase2000/Project/script/lua/vehicle_unit_controller.lua",
+		"/C/Users/phaneus/Documents/CopChase2000/Project/script/lua/vehicle_follow_cam.lua",
+		"/C/Users/phaneus/Documents/CopChase2000/Project/script/lua/road_manager.lua",
+		"/C/Users/phaneus/Documents/CopChase2000/Project/script/lua/project.lua",
+		"/C/Users/phaneus/Documents/CopChase2000/Project/script/lua/player_hud.lua",
+		"/C/Users/phaneus/Documents/CopChase2000/Project/script/lua/props_manager.lua",
+		"/C/Users/phaneus/Documents/CopChase2000/Project/script/lua/player_car.lua",
+		"/C/Users/phaneus/Documents/CopChase2000/Project/script/lua/game.lua",
+		"/C/Users/phaneus/Documents/CopChase2000/Project/script/lua/lane_manager.lua",
+		"/D/Projects/pitchcrawl/script/lua/navigation/simple_orbit.lua",
+		"/D/Projects/pitchcrawl/script/lua/input/input_manager.lua",
+		"/D/Projects/pitchcrawl/script/lua/input/mouse.lua",
+		"/D/Projects/pitchcrawl/settings.ini",
+		"/D/Projects/pitchcrawl/script/lua/components/monster.lua",
+		"/D/Projects/pitchcrawl/script/lua/gameplay/base_action.lua",
+		"/D/stingray/core/editor_slave/editor/button.lua",
+		"/D/Projects/pitchcrawl/script/lua/ui/ui_manager.lua",
+		"/D/Projects/pitchcrawl/script/lua/utility/utility.lua",
+		"/D/stingray/core/appkit/lua/component_manager.lua"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 92.0,
+		"where_history":
+		[
+			"*.*",
+			"*.lua",
+			"*.lua,*.cpp,*.cs,*.js",
+			"*.lua,*.cpp,*.cs",
+			"*.lua,*.cpp",
+			"engine/",
+			"*.cs"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"ping",
+			"RenameAssets/Assets/gremlin_animated",
+			"ref_filename",
+			"ref_file",
+			"e3daf26e-32b0-4299-9982-1e5824ac0904",
+			"9129115c-7072-4b7b-b1d8-8d4fee0ca204",
+			"controller",
+			"FlickAttack",
+			"custom_script_node",
+			"scripts",
+			"units/demon_fatty/animations/fatty_idle",
+			"material_overrides",
+			"material",
+			"spawn_data",
+			"material",
+			"UnitObject = class",
+			"spawn_unit",
+			"World",
+			"World =",
+			"move_particles",
+			"create_permanent_lines",
+			"UnitObject(",
+			"spawn_unit",
+			"material",
+			"UnitObject",
+			"spawn_unit_with_fallback",
+			"material",
+			"LevelEditing:spawn_unit",
+			"load_level",
+			"load",
+			"character",
+			"-1.000339",
+			"EDITOR_QT_PATH",
+			"path",
+			"qt",
+			"tmp",
+			"vector_variable_node",
+			"aws",
+			"af96ec97-558c-42d1-81c53376cb508448",
+			"unit",
+			"9b7a724d-3146-4736-b82e-5bdc8930ecdc",
+			"unit",
+			"track",
+			"story",
+			"flow",
+			"units",
+			"RenameAssets/Assets/textures/colorskin3mid.texture",
+			"RenameAssets/Assets/animations/gremlin_animated.anim_clip",
+			"gremlin_animated.animation",
+			"draw_text",
+			"get_character_from_unit",
+			"draw_health_bars",
+			"draw_text",
+			"draw_current_character_actions",
+			"vector",
+			"test_floor",
+			"ripairs",
+			"physic",
+			"draw_he",
+			"self.heroes",
+			"draw_init",
+			"pairs",
+			"is_",
+			"size",
+			"pairs",
+			"waiting",
+			"print",
+			"self.action",
+			"back_buffer",
+			"background",
+			"character_passes",
+			"slot",
+			".material",
+			"TextureThumb",
+			"ThumbnailClasses.texture",
+			"TextureThumb",
+			"TextureThumb(",
+			"rect",
+			"world",
+			"create_screen_gui",
+			"update_pre_world",
+			"trigger_event",
+			"SwitchCamMode",
+			"raise_event",
+			":raise_event",
+			"raise_event",
+			"gui.text",
+			"draw_text",
+			"update_handlers",
+			"call_update_handlers",
+			"render",
+			"manage_level_object",
+			"Scene.update",
+			"button_states",
+			"Gui.bitmap",
+			"join_foreground",
+			"join_foreground.dds",
+			"dds",
+			"mouse_left_down",
+			"left_mouse_down",
+			"Scene.start",
+			"Picking",
+			"mana",
+			"ipairs",
+			"active_characters",
+			"ipairs",
+			"assert",
+			"Project",
+			"raise_event",
+			"textures",
+			"dst",
+			"skin",
+			"core/object_creator_items/cubemap_probe",
+			"spawn_unit",
+			"material",
+			"Appkit",
+			"set_shading_environment",
+			"color",
+			"material",
+			"kill_process",
+			"Gui.resolution",
+			"floor",
+			"text_extents",
+			"get_text_extents",
+			"window_width",
+			"create_widgets",
+			"preview_ma",
+			"particle"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"materials",
+			"ready_characters"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": false
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2443,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								537,
+								537
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true,
+							"word_wrap": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 102.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "pacweb.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"level_ed",
+				"core\\editor_slave\\level_editor\\level_editor.lua"
+			],
+			[
+				"game",
+				"script\\lua\\gameplay\\game_manager.lua"
+			],
+			[
+				"pitch",
+				"script\\pitch_db.lua"
+			],
+			[
+				"projec",
+				"script\\lua\\project.lua"
+			],
+			[
+				"game_man",
+				"script\\lua\\gameplay\\game_manager.lua"
+			],
+			[
+				"proj",
+				"script\\lua\\project.lua"
+			],
+			[
+				"pro",
+				"script\\lua\\project.lua"
+			],
+			[
+				"hero",
+				"script\\lua\\components\\hero.lua"
+			],
+			[
+				"charac",
+				"script\\lua\\components\\character.lua"
+			],
+			[
+				"mons",
+				"script\\lua\\components\\monster.lua"
+			],
+			[
+				"char",
+				"script\\lua\\components\\character.lua"
+			],
+			[
+				"attack",
+				"script\\lua\\gameplay\\attack.lua"
+			],
+			[
+				"na",
+				"script\\lua\\navigation\\navigation_manager.lua"
+			],
+			[
+				"cha",
+				"script\\lua\\components\\character.lua"
+			],
+			[
+				"atta",
+				"script\\lua\\gameplay\\attack.lua"
+			],
+			[
+				"bas",
+				"script\\lua\\gameplay\\base_action.lua"
+			],
+			[
+				"ui",
+				"script\\lua\\s2d_ui.lua"
+			],
+			[
+				"base_",
+				"script\\lua\\gameplay\\base_action.lua"
+			],
+			[
+				"mous",
+				"script\\lua\\input\\mouse.lua"
+			],
+			[
+				"input",
+				"script\\lua\\input\\input_manager.lua"
+			],
+			[
+				"keybo",
+				"script\\lua\\input\\keyboard.lua"
+			],
+			[
+				"monster",
+				"script\\lua\\components\\monster.lua"
+			],
+			[
+				"key",
+				"script\\lua\\input\\keyboard.lua"
+			],
+			[
+				"charact",
+				"script\\lua\\components\\character.lua"
+			],
+			[
+				"game_",
+				"script\\lua\\gameplay\\game_manager.lua"
+			],
+			[
+				"mon",
+				"script\\lua\\components\\monster.lua"
+			],
+			[
+				"chara",
+				"script\\lua\\components\\character.lua"
+			],
+			[
+				"",
+				"script\\lua\\gameplay\\game_manager.lua"
+			],
+			[
+				"gamena",
+				"script\\lua\\gameplay\\game_manager.lua"
+			],
+			[
+				"hud",
+				"script\\lua\\player_hud.lua"
+			],
+			[
+				"level",
+				"core\\editor_slave\\editor\\viewports\\toolbar\\level_editing_viewport_toolbar_behavior.lua"
+			],
+			[
+				"buttonnr",
+				"core\\editor_slave\\editor\\button_normal_behavior.lua"
+			],
+			[
+				"butto",
+				"core\\editor_slave\\editor\\button_behavior.lua"
+			],
+			[
+				"text",
+				"core\\editor_slave\\editor\\textured_button_renderer.lua"
+			],
+			[
+				"thum",
+				"core\\editor_slave\\thumbnail_server.lua"
+			],
+			[
+				"thumbna",
+				"core\\editor_slave\\thumbnail_server.lua"
+			],
+			[
+				"gama",
+				"script\\lua\\gameplay\\game_manager.lua"
+			],
+			[
+				"scene",
+				"script\\lua\\scene.lua"
+			],
+			[
+				"project",
+				"script\\lua\\project.lua"
+			],
+			[
+				"butbeh",
+				"core\\editor_slave\\editor\\button_normal_behavior.lua"
+			],
+			[
+				"buttbe",
+				"core\\editor_slave\\editor\\button_behavior.lua"
+			],
+			[
+				"butt",
+				"core\\editor_slave\\editor\\button.lua"
+			],
+			[
+				"textren",
+				"core\\editor_slave\\editor\\text_button_renderer.lua"
+			],
+			[
+				"com",
+				"core\\appkit\\lua\\component_manager.lua"
+			],
+			[
+				"comp",
+				"core\\appkit\\lua\\component_manager.lua"
+			],
+			[
+				"level_wra",
+				"core\\appkit\\lua\\level_wrapper.lua"
+			],
+			[
+				"game_ma",
+				"script\\lua\\gameplay\\game_manager.lua"
+			],
+			[
+				"naviga",
+				"script\\lua\\navigation\\navigation_manager.lua"
+			],
+			[
+				"navi",
+				"script\\lua\\navigation\\navigation_manager.lua"
+			],
+			[
+				"pit",
+				"script\\pitch_db.lua"
+			],
+			[
+				"scen",
+				"script\\lua\\scene.lua"
+			],
+			[
+				"ev",
+				"script\\lua\\utility\\event_manager.lua"
+			],
+			[
+				"wor",
+				"core\\appkit\\lua\\world_wrapper.lua"
+			],
+			[
+				"chat",
+				"script\\lua\\components\\character.lua"
+			],
+			[
+				"compo",
+				"core\\appkit\\lua\\component_manager.lua"
+			],
+			[
+				"doo",
+				"script\\lua\\doors\\door.lua"
+			],
+			[
+				"levelw",
+				"core\\appkit\\lua\\level_wrapper.lua"
+			],
+			[
+				"sce",
+				"script\\lua\\scene.lua"
+			],
+			[
+				"character",
+				"script\\lua\\components\\character.lua"
+			],
+			[
+				"normalb",
+				"core\\editor_slave\\editor\\button_normal_behavior.lua"
+			],
+			[
+				"textubutto",
+				"core\\editor_slave\\editor\\textured_button_renderer.lua"
+			],
+			[
+				"levelviewportbeha",
+				"core\\editor_slave\\editor\\viewports\\toolbar\\level_editing_viewport_toolbar_behavior.lua"
+			],
+			[
+				"levelbehav",
+				"core\\editor_slave\\editor\\viewports\\level_editing_viewport_behavior.lua"
+			],
+			[
+				"thumb",
+				"core\\editor_slave\\thumbnail_server.lua"
+			],
+			[
+				"action",
+				"script\\lua\\gameplay\\action_manager.lua"
+			],
+			[
+				"table_ut",
+				"script\\lua\\utility\\table_utils.lua"
+			],
+			[
+				"characte",
+				"script\\lua\\components\\character.lua"
+			],
+			[
+				"chatac",
+				"core\\rendering\\texture_categories\\lightmap.texture_category"
+			],
+			[
+				"game_mana",
+				"script\\lua\\gameplay\\game_manager.lua"
+			],
+			[
+				"compone",
+				"core\\appkit\\lua\\component_manager.lua"
+			],
+			[
+				"eventman",
+				"script\\lua\\utility\\event_manager.lua"
+			],
+			[
+				"levelpreviewlu",
+				"core\\editor_slave\\editor\\viewports\\toolbar\\level_editing_viewport_toolbar_behavior.lua"
+			],
+			[
+				"viewport_behavior",
+				"core\\editor_slave\\editor\\viewports\\asset_preview_viewport_behavior.lua"
+			],
+			[
+				"huds",
+				"core\\editor_slave\\hud_colors.lua"
+			],
+			[
+				"asset_pre",
+				"core\\editor_slave\\editor\\viewports\\asset_preview_viewport_behavior.lua"
+			],
+			[
+				"assetpreview",
+				"core\\editor_slave\\editor\\viewports\\asset_preview_viewport_behavior.lua"
+			],
+			[
+				"thumv",
+				"core\\editor_slave\\editor\\viewports\\thumbnail_generator_viewport_behavior.lua"
+			],
+			[
+				"place",
+				"core\\editor_slave\\editor\\place_tool.lua"
+			],
+			[
+				"button",
+				"editor_slave\\editor\\button.lua"
+			],
+			[
+				"gui",
+				"Projects\\hamilton\\foundation\\scripts\\util\\gui\\gui_aux.lua"
+			],
+			[
+				"place_too",
+				"stingray\\core\\editor_slave\\editor\\place_tool.lua"
+			],
+			[
+				"if_world",
+				"stingray\\application\\application\\script\\interface\\if_world.cpp"
+			],
+			[
+				"cheat",
+				"Notes\\SublimeCheat.md"
+			],
+			[
+				"notes",
+				"Notes\\RandomNotes.txt"
+			],
+			[
+				"assetprebeh",
+				"stingray\\core\\editor_slave\\editor\\viewports\\asset_preview_viewport_behavior.lua"
+			],
+			[
+				"assetbeha",
+				"stingray\\core\\editor_slave\\editor\\viewports\\asset_preview_viewport_behavior.lua"
+			],
+			[
+				"partic",
+				"stingray\\core\\editor_slave\\particle_editor.lua"
+			],
+			[
+				"projectmanager",
+				"editor\\StingrayEditorBackend\\Modules\\Stingray.ProjectManager\\ProjectManagerModule.cs"
+			],
+			[
+				"entityexplo",
+				"editor\\StingrayEditorBackend\\Modules\\Stingray.EntityEditor\\Views\\entity-explorer-controller.js"
+			],
+			[
+				"assetpre",
+				"editor\\StingrayEditorBackend\\Modules\\Stingray.AssetPreview\\AssetPreviewModule.cs"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 375.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"addselection",
+				"AddToSelection"
+			],
+			[
+				"set_mate",
+				"set_material"
+			]
+		],
+		"width": 578.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 423.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
