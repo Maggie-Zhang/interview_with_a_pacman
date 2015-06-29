@@ -53,7 +53,3 @@ ipch/
 **/AssemblyInfo.cs
 **/AssemblyInfo.cpp
 
-
-# Webstorm config
-
-.idea/
