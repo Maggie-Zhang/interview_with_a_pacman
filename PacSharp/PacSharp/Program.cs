@@ -4,6 +4,7 @@ namespace PacSharp
 {
     class Game
     {
+        public Random RandomGenerator { get; set; }
         public int Timeoutc { get; set; }  // Validity of user input
         public ConsoleKey CharInput { get; set; } // User input
         public long Time { get; set; }      // Game time
@@ -18,6 +19,7 @@ namespace PacSharp
             CharInput = ConsoleKey.Spacebar;
             Pos = 0;
             Time = GetTime();
+            RandomGenerator = new Random();
         }
 
         public static long GetTime()
@@ -30,8 +32,12 @@ namespace PacSharp
         public void GotoXY( int x, int y ) 
         { 
             Console.SetCursorPosition(x, y);
-        } 
-        
+        }
+
+        public Int32 PickANumberAnyNumber()
+        {
+            return RandomGenerator.Next();
+        }
 
         // To read the console input in a non-blocking way
         public void GetUserInput()

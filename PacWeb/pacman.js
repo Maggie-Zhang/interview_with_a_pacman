@@ -79,6 +79,10 @@
         ctx.fillText("Game Over!", 150, 50);
     }
 
+    function pickANumberAnyNumber() {
+        return Math.random();
+    }
+
     function startGame() {
         var ONE_FRAME_TIME = 1000 / 60 ;
         var mainloop = function() {

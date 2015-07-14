@@ -59,6 +59,11 @@ void PerformAI(Game& game)
 	}
 }
 
+int PickANumberAnyNumber() 
+{
+	return rand();
+}
+
 // Refresh the game output
 void DrawGame(const Game& game)
 {
